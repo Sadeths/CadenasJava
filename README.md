@@ -1,18 +1,94 @@
-## Getting Started
+# 🔤 Cadenas en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Repositorio con ejercicios prácticos enfocados en el manejo de **cadenas (String)** en Java, cubriendo diferentes operaciones y métodos esenciales del lenguaje.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📚 Contenido
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Este proyecto incluye ejemplos sobre:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* 🔍 Búsqueda de subcadenas
+* ✂️ Manejo de subcadenas
+* 🔄 Reemplazo de texto
+* ⚖️ Comparación de cadenas
+* 🔗 Concatenación
+* 🔢 Índices en cadenas
+* 🔒 Inmutabilidad de Strings
+* ✉️ Generación de correos
+* ✨ Caracteres especiales
+* 🛠️ Métodos de la clase `String`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🚀 Tecnologías utilizadas
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Java (JDK 17+)
+
+---
+
+## 📂 Estructura del proyecto
+
+```plaintext id="0yph08"
+src/
+├── BusquedaSubcadenas.java
+├── Cadenas.java
+├── CaracteresEspeciales.java
+├── ComparacionCadenas.java
+├── GeneradorEmail.java
+├── IndicesCadenas.java
+├── InmutabilidadCadenas.java
+├── ManejoSubcadenas.java
+├── MasConcatenacionCadenas.java
+├── MetodosDeCadenas.java
+└── ReemplazarSubcadenas.java
+```
+
+---
+
+## 🧠 Objetivo
+
+Este repositorio forma parte de mi aprendizaje en Java, enfocándome en comprender a profundidad el manejo de Strings, incluyendo:
+
+* Uso de métodos como `length()`, `substring()`, `replace()`, `equals()`
+* Diferencias entre `==` y `.equals()`
+* Manipulación de texto
+* Buenas prácticas con cadenas
+
+---
+
+## ▶️ Cómo ejecutar
+
+1. Clonar el repositorio:
+
+```bash id="o6ud45"
+git clone https://github.com/tu-usuario/CadenasJava.git
+```
+
+2. Abrir en tu IDE (VS Code / IntelliJ)
+
+3. Ejecutar cualquier archivo `.java`
+
+---
+
+## 💡 Ejemplo
+
+```java id="2s9y3m"
+String texto = "Hola Mundo";
+System.out.println(texto.substring(0, 4)); // Hola
+```
+
+---
+
+## 📌 Mejoras futuras
+
+* Agregar interacción con usuario (`Scanner`)
+* Crear ejercicios prácticos combinados
+* Implementar pequeños retos tipo algoritmos
+* Documentar cada archivo con comentarios más detallados
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por **Samahel Thomas**
